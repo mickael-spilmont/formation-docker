@@ -123,7 +123,7 @@ Il fonctionne comme un .gitignore.
 ### Monter un volume
 
 ##### À partir d'un Dockerfile
-Il est impossible de faire un bind mount à partir du Dockerfile
+**Il est impossible de faire un bind mount à partir du Dockerfile**
 
     VOLUME ["<chemin_du_volume_dans_le_container"]
 
